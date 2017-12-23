@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
+@import url('https://fonts.googleapis.com/css?family=Arimo|Merriweather+Sans');
+@import url('https://fonts.googleapis.com/css?family=Arimo|Merriweather+Sans|Roboto+Condensed');
+
+$fonts-title: Merriweather Sans, sans-serif;
+$font-subtitle: Arimo, sans-serif;
+$font-text: Roboto Condensed, sans-serif;
+$prime-color: #545454;
+$second-color: #A62A2A;
+body {background-color: #EAEAAE}
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.content {
+	text-align: center;
+}
+h1 {
+	font: 30px $fonts-title;
+	font-weight: bold;
+	color: $prime-color;
+	}
+h4 {
+	font: 16px $font-subtitle;
+	color: $second-color;
+}
+.text {
+	font: 16px/26px $font-text;
+	width: 35%;
+	color: $prime-color;
+	margin: 0 auto;	
+}
+.verse {
+	border-bottom: 1px solid $second-color;
+	padding: 10px;
+}
